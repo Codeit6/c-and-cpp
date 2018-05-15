@@ -1,0 +1,11 @@
+/*calculation of simple interest*/
+/*ENTER PRINCIPLE,RATE OF INTEREST,TIME*/
+#include <stdio.h>
+int main() {
+    int p,n;
+    float r,si;
+    scanf("%d%d%f",&p,&n,&r);
+    si=p*n*r/100;
+    printf("SIMPLE INTEREST=%f",si);
+    
+}
